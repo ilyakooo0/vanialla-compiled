@@ -1,0 +1,17 @@
+{
+  "name": "v",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.54.4",
+    "vanilla-framework": "^3.6.1"
+  },
+  "scripts": {
+    "build-css": "sass --load-path=node_modules src:dist --style=compressed",
+    "build": "parcel build src/style.scss"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
